@@ -1,0 +1,200 @@
+body {
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    text-align: center;
+}
+
+#title {
+    background-color: #ff4c68;
+    color: white;
+    overflow: hidden;
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Montserrat, sans-serif;
+}
+
+/* Sections */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+/* Navigation Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.tincat {
+    font-family: Ubuntu;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.navig {
+    margin-left: 25px;
+}
+
+.nav-link {
+    font-family: "Montserrat";
+    font-size: 1.2rem;
+    font-weight: 100;
+}
+
+.phone {
+    width: 20.5rem;
+    transform: rotate(25deg);
+    margin: 50px auto -45% auto;
+}
+
+/* main title section */
+
+.main-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding: 1.5rem 0 2rem 0;
+}
+
+
+/* download buttons */
+
+.download{
+    margin: 5% 3% 5% 0;
+}
+
+/* features */
+
+.features{
+    padding: 80px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+}
+
+.features-img{
+    font-size: 80px;
+    color: #ef8172;
+    padding-bottom: 30px;   
+}
+
+.features-img:hover{
+    color: #ff4c68;
+}
+
+.features-h3{
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.features-p{
+    color: #8f8f8f;
+}
+
+/* Testimonial Section */
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+/* press section */
+
+#press{
+    padding-bottom: 3%;
+}
+
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+/* Pricing Section */
+
+.pricing{
+    padding: 5% 0% 5%;
+}
+
+.text-center{
+    padding: 0% 15% 5%;
+}
+
+.pricing-h2{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.pricing-card-title{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding: 1.5rem 0 2rem 0;
+}
+
+.card-header{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.card-btn{
+    background-color: #ff4c68;
+}
+
+.card-btn:hover{
+    background-color: #ff4c68;
+}
+
+/* mobile Section */
+
+@media (max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+
+    .phone{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+/* Call to Action Section */
+
+.cta{
+    padding: 7% 15% 0% 15%;
+}
+
+/* Footer */
+
+#footer{
+    padding: 7% 15% 2% 15%;
+}
+
+.icon{
+    margin: 0% 1% 2%;
+    color: #000;
+    font-size: 22px;
+}
